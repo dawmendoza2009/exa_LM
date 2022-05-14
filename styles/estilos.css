@@ -1,0 +1,56 @@
+.contenido{
+    display: flex;
+    height: 200px;
+    width: 50%;    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fotografia{
+    height: 100px;
+}
+.fotografia img{	 	
+    border-radius: 10px;/*border redondeado de la caja*/    
+    align-self: flex-start;
+    
+}
+.datos_personales{
+    background-color: rgb(160, 233, 161);
+    height: 100px;
+    align-self: flex-start; 
+    margin-right:5px;
+}
+.experiencia_laboral{
+    background-color:rgb(183, 151, 200);
+    align-self: flex-end;
+    height:100px;
+    margin-right:5px;
+}
+
+.formacion_academica{
+    background-color: rgb(224, 180, 186);
+    align-self: stretch;
+    height: 200px;
+    margin-right:5px;
+}
+.formacion_complementaria{
+    background-color: rgb(169, 178, 225);
+    align-self:flex-end;
+    height: 100px;
+    margin-right:5px;
+}
+/*Div clear both para que se ponga debajo de las secciones */
+.capacidades{
+    clear: both;
+    background-color: rgb(219, 180, 209);  
+    height: 100px;
+    width: 26%;    
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+ }
+ 
